@@ -1,0 +1,57 @@
+.tooltip-bubble {
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    margin-top: 17px;
+    margin-left: -45px;
+    -webkit-box-shadow: 9px -8px 25px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px -8px 25px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px -8px 25px -6px rgba(0, 0, 0, 0.7);
+    background: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.tooltip-bubble:hover,
+.hasTooltip:hover .tooltip-bubble {
+    opacity: 1;
+    z-index: 2147483647;
+}
+
+.first-suggestion {
+    padding: 10px 16px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 200px;
+    text-align: left;
+    color: #11a683;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+}
+.first-suggestion:hover {
+    background-color: #11a683;
+    color: white;
+}
+.dismiss-button {
+    width: 200px;
+    padding: 8px 16px;
+    background-color: white;
+    text-align: left;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.dismiss-button:hover {
+    background-color: #f0f2fc;
+}
+.save-button {
+    width: 200px;
+    padding: 8px 16px;
+    background-color: white;
+    text-align: left;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.save-button:hover {
+    background-color: #f0f2fc;
+}
